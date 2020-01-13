@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #777;
+  background-color: #fff;
   color: #fff;
   font-family: sans-serif;
   font-weight: 400;
@@ -14,11 +14,13 @@
   padding: 2rem 4rem;
   border-radius: 7px;
   flex: 0 0 50%;
+  -webkit-box-shadow: 0px 3px 22px -5px rgba(56, 49, 56, 0.86);
+  -moz-box-shadow: 0px 3px 22px -5px rgba(56, 49, 56, 0.86);
+  box-shadow: 0px 3px 22px -5px rgba(56, 49, 56, 0.86);
 }
 h2 {
   text-transform: capitalize;
   padding: 1.5rem;
-  text-decoration: underline;
 }
 #quoteAuthor {
   text-transform: capitalize;
@@ -37,4 +39,11 @@ h2 {
   color: #fff;
 }
 blockquote {
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+}
+h3 {
+  width: 50%;
+  margin: 0 auto;
 }
