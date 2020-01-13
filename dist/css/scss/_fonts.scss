@@ -1,0 +1,31 @@
+#heading {
+  color: #e01a4f;
+  font-size: 3rem;
+}
+#sub-heading {
+  color: #2660a4;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  &__link {
+    color: #2660a4;
+  }
+}
+.blue {
+  color: #2660a4;
+}
+.red {
+  color: #e01a4f;
+}
+.green {
+  color: #00cc66;
+}
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.box-shadow {
+  padding: 1rem;
+
+  margin: 0.5rem;
+}
